@@ -1,0 +1,10 @@
+﻿{
+	"Name": "Extra Qualities",
+	"Author": "Shockah",
+	"Version": "1.0.0",
+	"Description": "Adds Poor and Wonderful item qualities.",
+	"UniqueID": "Shockah.ExtraQualities",
+	"EntryDll": "ExtraQualities.dll",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:0" ]
+}
