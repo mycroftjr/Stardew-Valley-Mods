@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Shockah.FlexibleSprinklers
+namespace Shockah.CommonModCode
 {
-	internal struct IntPoint: IEquatable<IntPoint>
+	public struct IntPoint: IEquatable<IntPoint>
 	{
 		public static readonly IntPoint Zero = new(0, 0);
 		public static readonly IntPoint One = new(1, 1);

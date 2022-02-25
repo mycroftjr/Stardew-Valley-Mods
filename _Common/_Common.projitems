@@ -13,9 +13,20 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.0" />
+    <PackageReference Include="Optional" Version="4.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)GMCMI18nHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graph\AllNodesClusterGraphSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graph\EdgeWeightDistanceGraphSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graph\IClusterGraphSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IntPoint.cs" />
+    <Compile Include="..\_Common\Graph\Stardew\GameLocationTileGraph.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)INumber.cs" />
+    <Compile Include="..\_Common\Graph\EdgeDistanceGraphSearch.cs" />
+    <Compile Include="..\_Common\Graph\AllNodesGraphSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graph\IGraph.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graph\IGraphSearch.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)I18nEnum.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IGenericModConfigMenuApi.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TranspileHelper.cs" />
