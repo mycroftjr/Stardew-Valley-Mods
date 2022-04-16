@@ -16,7 +16,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)HarmonyExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IL\ILDescriptor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IL\TranspileHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IL\OldTranspileWorker.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IL\TranspileWorker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Patching\IPatch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Patching\IPatchFactory.cs" />
+    <Compile Include="..\_CommonWithHarmony\Patching\LoggingCatchingPatchFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Patching\Patch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Patching\VirtualPatch.cs" />
   </ItemGroup>
 </Project>

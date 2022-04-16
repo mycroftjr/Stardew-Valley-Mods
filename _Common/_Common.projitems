@@ -25,6 +25,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)IntPoint.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LinqExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ObjectTokens.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Property.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ReflectionExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SMAPI\MultiplayerHelperExt.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Stardew\FarmHouseExtensions.cs" />
